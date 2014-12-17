@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+li{
+	list-style: none;
+	padding: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+
+}
+h1{
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	text-shadow: 2px 2px 8px #000000;
+	font-size: 5em;
+}
+h2{
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+}
+a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px;
+
+}
+.container{
+	width: 100%;
+	 margin:0;
+     padding:0;
+}
+.side-nav{
+	height: 100%;
+	width: 20%;
+	float: left;
+	display: inline-block;
+	background-color: white;
+	color: green;
+	min-height: 200px;
+    margin: 30px 0 30px 0; 
+    padding: 15px 10px;
+    z-index: 100;
+    position: fixed;
+}
+.side-logo img{
+	text-align: center;
+}
+#content-wrapper{
+	width: 80%;
+	float: right;
+	display: inline-block;
+	text-align: center;
+	background-image: url("images/road.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.title-area{
+	height: 300px;
+	padding: 50px;
+}
+.title-area li{
+	display: inline;
+}
+.about-me{
+	background-color: white;
+	min-height: 200px;
+	height: auto;
+}
+.articles{
+	background-color: white;
+	min-height: 200px;
+	height: auto;
+}
+.active{
+	background-color: #333333;
+}
+.active a{
+	color: white;
+}
+.web-dev-imgs{
+	background-color: white;
+}
+.web-dev-imgs li{
+	display: inline;
+}
+.articles li{
+	display: inline;
+}
+footer{
+	width: 80%;
+	display: inline-block;
+	text-align: center;
+	float: right;
+	height: 80px;
+	background-color: #333333;
+}
+footer li{
+	display: inline;
+	color: white;
+}
+footer img{
+	margin: 10px;
+}
