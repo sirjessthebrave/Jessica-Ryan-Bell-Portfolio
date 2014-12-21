@@ -96,7 +96,7 @@ p{
 	display: inline;
 }
 .articles li{
-	display: inline;
+	display: block;
 }
 footer{
 	width: 80%;
