@@ -78,11 +78,6 @@ p{
 	min-height: 200px;
 	height: auto;
 }
-.articles{
-	background-color: white;
-	min-height: 200px;
-	height: auto;
-}
 .active{
 	background-color: #333333;
 }
@@ -95,8 +90,16 @@ p{
 .web-dev-imgs li{
 	display: inline;
 }
+.articles{
+	background-color: white;
+	min-height: 200px;
+	height: auto;
+}
 .articles li{
-	display: block;
+	display: inline-block;
+	border-style: outset;
+	padding: 3%;
+	margin: 5px;
 }
 footer{
 	width: 80%;
@@ -122,7 +125,7 @@ footer img{
 	display: none;
   }
   .web-dev-hover img{
-  	width: 80%;
+  	width: 70%;
   	height: auto;
   }
 }
@@ -140,6 +143,7 @@ footer img{
   .side-nav li{
   	display: inline;
   	text-align: center;
+  	font-size: 12px;
   }
   #content-wrapper{
   	display: block;
@@ -149,7 +153,32 @@ footer img{
   	font-size: 2.5em;
   	padding: 10px;
   }
+  .articles li{
+  	margin: 15px;
+  }
   footer{
   	width: 100%;
   }
+  footer img{
+  	width: 7%;
+  }
+}
+/* WEB_DEV PAGE SPECIFIC */
+.web-dev-page{
+	display: inline-block;
+}
+.1{
+	background-image: url(images/road.jpg);
+	height: 10%;
+	height: auto;
+}
+.2{
+	background-image: url(images/road.jpg);
+	height: 10%;
+	height: auto;
+}
+.3{
+	background-image: url(images/road.jpg);
+	height: 10%;
+	height: auto;
 }
