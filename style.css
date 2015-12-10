@@ -22,7 +22,7 @@ h1{
 	font-size: 5em;
 }
 h2{
-	color: #333333;
+	color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 	padding: 10px;
 }
@@ -56,15 +56,19 @@ p{
 }
 .side-logo img{
 	text-align: center;
+	margin: 0 auto;
+    display: block;
+    padding: 2em;
 }
 #content-wrapper{
 	width: 80%;
 	float: right;
 	display: inline-block;
 	text-align: center;
-	background-image: url("images/road.jpg");
+	background-image: url("images/background.png");
 	background-size: cover;
 	background-attachment: fixed;
+	background-position-y: -245px;
 }
 .title-area{
 	height: 300px;
