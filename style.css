@@ -22,7 +22,7 @@ h1{
 	font-size: 5em;
 }
 h2{
-	color: #333333;
+	color: #022A7C;
 	font-family: 'Open Sans', sans-serif;
 	padding: 10px;
 }
@@ -56,15 +56,20 @@ p{
 }
 .side-logo img{
 	text-align: center;
+	margin: 0 auto;
+    display: block;
+    padding: 2em;
 }
 #content-wrapper{
 	width: 80%;
 	float: right;
 	display: inline-block;
 	text-align: center;
-	background-image: url("images/road.jpg");
+	background-image: url("images/background.png");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position-y: -245px;
 }
 .title-area{
 	height: 300px;
@@ -101,12 +106,32 @@ p{
 	padding: 3%;
 	margin: 5px;
 }
+
+.totro {
+	background-color: #ffffff;
+}
+
+.skillz {
+	background-color: #ffffff;
+}
+
+.organizations {
+	color: #ffffff;
+}
+.organizations-list-item a {
+	color: #ffffff;
+}
+
+.speaking {
+	background-color: #ffffff;
+}
+
 footer{
 	width: 80%;
 	display: inline-block;
 	text-align: center;
 	float: right;
-	height: 80px;
+	/*height: 80px;*/
 	background-color: #333333;
 }
 footer li{
@@ -115,6 +140,8 @@ footer li{
 }
 footer img{
 	margin: 10px;
+	width: 40px;
+	margin: 2em 0;
 }
 /*Screan Breaks*/
 @media screen and (max-width: 900px){
@@ -144,14 +171,19 @@ footer img{
   	display: inline;
   	text-align: center;
   	font-size: 12px;
+  	padding: 5px;
   }
   #content-wrapper{
   	display: block;
   	width: 100%;
+  	background-position-y: 0;
   }
   h1{
-  	font-size: 2.5em;
+  	font-size: 2em;
   	padding: 10px;
+  }
+  h2 {
+  	font-size: 1em;
   }
   .articles li{
   	margin: 15px;
